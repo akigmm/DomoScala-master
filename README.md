@@ -152,21 +152,6 @@ The "MeshNet Devices" in the bottom of the diagram are the various Arduino or cu
 The **topology** of the mesh network is automatically generated at startup of the Play app in the server, by broadcasting a beacon signal in order to discover the active MeshNet devices and their interconnections.
 
 
-Hardware devices prototypes
--------------------
-We have designed and build some prototype of home automation devices with some simple sensors and actuators, that can communicate and work perfectly with the DomoScala system.
-
-This is a fully wireless and battery operated one made with a custom PCB:
-
-![Custom board](docs/images/board1.jpg)
-
-The **thermistor** and the **CdS photoresistor** are connected to analog input (ADC) pins, and the **LED** to a PWM output. *The sensors and actuators of this board are hardcoded in current implementation of DomoScala to be put in the "Room1". room.*
-
-Here you can see the whole example prototypes system running:
-
-![Photo of system](docs/images/systemphoto1.jpg)
-
-
 Actors and API
 --------------
 
